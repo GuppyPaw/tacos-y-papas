@@ -1,0 +1,44 @@
+.button-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 10px;
+}
+
+.button-grid button {
+    display: flex;
+    flex-direction: column;
+    border-color: #a8cbff;
+    border-width: 5px;
+    border-radius: 5px;
+    border-style:solid;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    margin: 20px;
+}
+
+.button-grid button:hover {
+    background-color: #d6eaff;
+    color: #474747;
+}
+
+.button-grid button:active {
+    background-color: #d6eaff;
+    color: #474747;
+    filter: brightness(0.45);
+}
+
+.button-grid span {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.button-grid button img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}

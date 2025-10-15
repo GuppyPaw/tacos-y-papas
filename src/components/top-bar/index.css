@@ -1,0 +1,35 @@
+/* TopBar.module.css */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  height: 6vh;
+}
+
+nav {
+  display: flex;
+}
+
+.links {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #a8cbff;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+}
+
+.count {
+    display: flex;
+    font-weight: bolder;
+    font-size: 10rem;
+}
+
+.big-time {
+    min-width: 178px;
+}
+
+.miliseconds {
+    margin-top: 1rem;
+    font-size: 3rem;
+    min-width: 54px;
+}
+
+.timer-actions button {
+    background-color: transparent;
+    font-size: 100px;
+    border: none;
+}
+
+.timer-actions button:hover {
+    cursor: pointer;
+    filter: opacity(0.90);
+}
+
+.timer-actions button:active {
+    filter: opacity(0.60);
+}
