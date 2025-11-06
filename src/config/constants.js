@@ -4,7 +4,8 @@ export const VIEWS = {
     TIMER: 'TIMER',
     UNIT_CONVERT: 'UNIT_CONVERT',
     HABITS_DASHBOARD: 'HABITS_DASHBOARD',
-    TRIVIA: 'TRIVIA'
+    TRIVIA: 'TRIVIA',
+    WIP: 'WIP'
 }
 
 export const OPERTAION_TYPE = {
