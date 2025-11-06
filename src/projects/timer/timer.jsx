@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import './index.css'
+import './timer.css'
 
 function Timer() {
     const [isCounting, setIsCounting] = useState(false);

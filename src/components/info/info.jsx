@@ -1,4 +1,4 @@
-import './index.css'
+import './info.css'
 
 function Info() {
     return (

@@ -1,4 +1,4 @@
-import './index.css'
+import './projects.css'
 import png from '../../assets/Png.png'
 
 function Projects({setCurrView, VIEWS}) {

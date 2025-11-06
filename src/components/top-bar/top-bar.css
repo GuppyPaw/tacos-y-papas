@@ -12,6 +12,10 @@ nav {
   display: flex;
 }
 
+header nav span:hover {
+  cursor: pointer;
+}
+
 .links {
   width: 90vw;
   display: flex;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './index.css'
+import './color-palette.css'
 
 const getRandomColor = () => {
     const randomColor = Math.floor(Math.random() * 16777215).toString(16);

@@ -1,4 +1,4 @@
-import './index.css'
+import './top-bar.css'
 
 function TopBar({currView, setCurrView, VIEWS}) {
 

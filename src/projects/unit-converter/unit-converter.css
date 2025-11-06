@@ -1,0 +1,36 @@
+.units {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 94vh;
+    width: 100%;
+}
+
+.units select {
+    background-color: #413c41;
+    color: white;
+    font-size: 4rem;
+    padding: 20px;
+}
+
+.units select:hover {
+    cursor: pointer;
+}
+
+.units-result select, .units-input select {
+    min-width: 400px;
+    margin: 20px;
+}
+
+.units-input, .units-result {
+    display: flex;
+    align-items: center;
+}
+
+.units-input input, .result {
+    background-color: #413c41;
+    font-weight: bolder;
+    font-size: 5rem;
+    width: 600px;
+    padding: 10px;
+}

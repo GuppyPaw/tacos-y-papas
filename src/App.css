@@ -7,3 +7,8 @@
   background-color: #524d52;
   color: white;
 }
+
+.landing-container input {
+  font-family: monospace;
+  color: white;
+}
